@@ -1,0 +1,36 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+
+    .title {
+        width: 500px;
+        height: 200px;
+        padding-top: 50px;
+
+        .app {
+            color: #330000;
+
+            .increment {
+                border-radius: 4px;
+                color: #000000;
+                background-color: #009900;
+                border: 0.2em solid #000000;
+                padding: 25px 45px;
+                margin: 10px;
+                font-size: 20px;
+
+            }
+            .decrement {
+                border-radius: 4px;
+                color: #000000;
+                background-color:#ff4d4d;
+                border: 0.2em solid #000000;
+                padding: 25px 45px;
+                margin: 10px 0;
+                font-size: 20px;
+
+            }
+        }
+    }
+}
